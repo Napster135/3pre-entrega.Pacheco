@@ -83,6 +83,8 @@ body {
   transition: color 0.25s;
   padding: 0.5rem; }
 
+
+
 .hover::before,
 .hover::after {
   box-sizing: inherit;
@@ -307,7 +309,17 @@ body {
     margin-bottom: 2rem;
     flex-direction: column; } }
 
+.products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+}
+
+
 .product-item {
+  margin: 1rem;
+  padding: 1 rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

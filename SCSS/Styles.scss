@@ -118,7 +118,9 @@ body {
 .hover:hover::after {
   border-bottom-color: var(--clr-green);
   border-left-color: var(--clr-green);
-  transition: border-color 0s ease-out 0.5s,  width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s; }
+  transition: border-color 0s ease-out 0.5s, 
+ width 0.25s ease-out 0.5s,
+ height 0.25s ease-out 0.75s; }
 
 .menu-js {
   display: none;
